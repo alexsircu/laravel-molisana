@@ -5,14 +5,28 @@
   margin: 0;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .list-inline {
   list-style: none;
 }
 .list-inline li {
   display: inline-block;
+  padding: 20px 10px;
+  margin: 0 10px;
+}
+.list-inline li.active {
+  background-color: #B2E5FC;
+}
+.list-inline li:hover {
+  background-color: #B2E5FC;
 }
 .list-inline li a {
   text-decoration: none;
+  font-size: 30px;
+  color: black;
 }
 
 .container {
@@ -24,20 +38,30 @@ header {
   text-align: center;
 }
 header img {
-  margin-top: 50px;
-}
-header ul {
-  margin-top: 50px;
-}
-header li {
-  margin: 20px;
-}
-header li a {
-  font-size: 30px;
-  color: black;
+  margin: 50px 0;
 }
 
 main {
-  height: 600px;
   background-image: url("../img/fondo-pag-speciali.jpg");
+  padding: 60px 0;
+}
+
+h2 {
+  color: #002D73;
+  font-size: 34px;
+  margin: 10px 0 10px 5px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 3 - 10px);
+  margin: 5px;
+}
+.card img {
+  max-width: 100%;
 }
