@@ -6,12 +6,33 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <!-- Css -->
         <link rel="stylesheet" href="{{ asset("css/app.css") }}">
 
     </head>
     <body>
-       <h1>Hello World</h1>
+       <header>
+
+         <img src="{{ asset("img/marchio-sito-test.png") }}" alt="Logo">
+         <ul class="list-inline">
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#">Prodotti</a></li>
+           <li><a href="#">News</a></li>
+         </ul>
+
+       </header>
+
+       <main>
+
+         <div class="container">
+           <h2>LE LUNGHE</h2>
+
+         </div>
+
+       </main>
+
+       <footer>
+
+       </footer>
     </body>
 </html>

@@ -1,6 +1,9 @@
-//
-$testColor: lightgreen;
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-body {
-  background-color: $testColor;
-}
+//Import tutti i partials
+@import 'partials/_variables';
+@import 'partials/_common';
+@import 'partials/_header';
+@import 'partials/_main';
+@import 'partials/_footer';
