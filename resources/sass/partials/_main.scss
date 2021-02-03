@@ -1,12 +1,11 @@
 main {
   background-image: url('../img/fondo-pag-speciali.jpg');
   padding: 60px 0;
-}
-
-h2 {
+  h2 {
   color: $h2_main_color;
   font-size: 34px;
   margin: 10px 0 10px 5px;
+}
 }
 
 .card-container {
