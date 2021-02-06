@@ -2,9 +2,9 @@
 
 @section('content')
 <main>
-
-  <h1>Pagina di dettaglio prodotto</h1>
-  <p>{{ $product["titolo"] }}</p>
-  
+  <div id="product-container">
+    <h1 id="products-title">{{ $product["titolo"] }}</h1>
+    <img src="{{ $product["src-h"] }}" alt="{{ $product["titolo"] }}">
+  </div>
 </main>    
 @endsection

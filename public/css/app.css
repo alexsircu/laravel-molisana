@@ -41,11 +41,11 @@ header img {
   margin: 50px 0;
 }
 
-.main-background {
+#home-container {
   background-image: url("../img/fondo-pag-speciali.jpg");
   padding: 60px 0;
 }
-.main-background h2 {
+#home-container h2 {
   color: #002D73;
   font-size: 34px;
   margin: 10px 0 10px 5px;
@@ -88,6 +88,22 @@ header img {
 .card-link:hover {
   cursor: pointer;
   background-color: rgba(50, 82, 123, 0.1);
+}
+
+#product-container {
+  width: 100%;
+}
+#product-container img {
+  max-width: 100%;
+}
+#product-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #B8DAE6;
+  font-size: 24px;
+  color: #002D75;
 }
 
 footer {

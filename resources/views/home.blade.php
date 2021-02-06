@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-  <div class="main-background">
+  <div id="home-container">
   <div class="container">
     <h2>LE LUNGHE</h2>
     <div class="card-container">
