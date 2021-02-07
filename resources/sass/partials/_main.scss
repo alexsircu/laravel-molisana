@@ -51,6 +51,9 @@
 //product
 #product-container {
   width: 100%;
+  color: #002D75;
+  background-color: #B8DAE4;
+  padding-bottom: 50px;
   img {
     max-width: 100%;
   }
@@ -59,8 +62,14 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    background-color: #B8DAE6;
     font-size: 24px;
-    color: #002D75;
+  }
+  #product-pack {
+    margin-top: -10px;
+  } 
+  p {
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
   }
 }
